@@ -25,7 +25,6 @@ This Power Automate Desktop flow automates the onboarding process of a new agent
   - Salesforce (agent creation permissions)
   - OneLogin (admin portal)
   - Agent Hierarchy system (write access)
-- Valid credentials stored or handled within PAD.
 
 ## How to Run
 
@@ -41,3 +40,52 @@ This Power Automate Desktop flow automates the onboarding process of a new agent
 - Ensure pop-up blockers are disabled for all related websites.
 - Recommended browsers: Edge or Chrome with browser automation extensions enabled.
 - Errors in ticket formatting may result in partial or failed automation.
+- Must be recently logged into all systems
+
+------------------------------------------------------------------------------------
+
+# AgentTermination – Agent Offboarding Automation
+
+## Overview
+
+This Power Automate Desktop flow automates the deactivation of agent accounts across three platforms, using data from a ServiceNow ticket:
+
+- **Salesforce**
+- **OneLogin**
+- **Agent Hierarchy Portal**
+
+## Functionality
+
+- Extracts agent identifiers and relevant data from an open ServiceNow ticket.
+- Navigates to each system and deactivates the agent's account using appropriate workflows or admin panels.
+
+## Prerequisites
+
+- Power Automate Desktop installed and configured.
+- Access to:
+  - ServiceNow (ticket view)
+  - Salesforce (admin access)
+  - OneLogin (admin access)
+  - Agent Hierarchy system (edit permissions)
+
+## How to Run
+
+1. Open the ServiceNow ticket in a browser window.
+2. Launch the flow from Power Automate Desktop.
+3. The flow will:
+   - Parse the agent info
+   - Log into each system
+   - Deactivate or disable the agent’s account in all three systems
+
+## Notes
+
+- Be sure that the ticket contains complete agent information to avoid skipped systems.
+- Confirmation dialogs may appear during some steps—monitor for interruptions if running in attended mode.
+- All systems must be accessible from the host machine.
+- Must be recently logged into all systems
+
+
+
+
+
+
