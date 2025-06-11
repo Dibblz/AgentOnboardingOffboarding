@@ -1,0 +1,12 @@
+<desktopflowbinary desktopflowbinaryid="3cef3b79-519d-ef11-8a6a-0022480b349d">
+  <data mimetype="application/octet-stream">ControlRepositoryImageFile_b56f370d-3560-49c7-a549-f2c90c027c16.png</data>
+  <iscustomizable>1</iscustomizable>
+  <name>Desktop flow ui element screenshot</name>
+  <process>
+    <workflowid>3b923073-519d-ef11-8a6a-0022480b349d</workflowid>
+  </process>
+  <reference>controlRepo-screenshots\3cb2cb3f-ae6e-4ad6-9f88-e069d55b8f90.png</reference>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <type>ControlRepositoryImageFile</type>
+</desktopflowbinary>
